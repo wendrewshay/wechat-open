@@ -3,9 +3,11 @@
 ### 微信PC网页端登录-后端API封装（参考结合[微信开放平台文档](https://developers.weixin.qq.com/doc/oplatform/Website_App/WeChat_Login/Wechat_Login.html)）
 
 依赖于本项目的SpringBoot工程项目中properties或yaml文件中的配置:
-* wechat.open.appid=xxx
-* wechat.open.appsecret=xxx
-* wechat.open.redirectUri=xxx
+```
+wechat.open.appid=xxx
+wechat.open.appsecret=xxx
+wechat.open.redirectUri=xxx
+```
 
 依赖于本项目的SpringBoot工程项目中引入组件：
 ```
